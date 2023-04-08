@@ -1,0 +1,20 @@
+Project Overview Description: A dissection of salaries within a data science career based on factors such as geographic location, company, job title, etc.
+Purpose: With this data, we can use some analysis to see if salaries have changed throughout the few years since 2020 until 2022 to predict how salaries will be in 2023. We can also use this data to see what factors could help a job seeker earn more money.
+Background on research problem: As someone finishing up a data analysis/data science bootcamp and will be entering the job market for these very same roles soon, I wanted to see how the job market will look for myself. With my background within tech recruitment and working for software engineering schools such as this one, I can utilize these data skills with my knowledge of the economy to help make important career choices.
+Existing research: Most salary reporting sites and major universities have done independent research on salaries within data science roles. As time passes, the business cycle ebbs and flows, and the economy is affected by new technologies and societal changes, constant research and studies need to be tested and updated to view the outlook on data science as a career.
+
+-----
+
+Dataset Description:  
+
+work_year: The year the salary was paid.
+experience_level: The experience level in the job during the year (EN - Entry-level/Junior, MI - Mid-level/Intermediate, SE - Senior-level/Expert, EX - Executive-level/Director or above).
+employment_type: The type of employement for the role (PT - Part-time, FT - Full-time, CT - Contract, FL - Freelance).
+job_title: The role worked in during the year.
+salary: The total gross salary amount paid.
+salary_currency: The currency of the salary paid as an ISO 4217 currency code.
+salary_in_usd: The salary in USD (FX rate divided by average USD rate for the respective year via fxdata.foorilla.com).
+employee_residence: Employee's primary country of residence in during the work year as an ISO 3166 country code.
+remote_ratio: The overall amount of work done remotely (0 - No remote work/less than 20%, 50 - Partially remote/Hybrid, 100 - Fully remote/more than 80%).
+company_location: The country of the employer's main office or contracting branch as an ISO 3166 country code.
+company_size: The average number of people that worked for the company during the year (S - less than 50 employees, M - 50 to 250 employees, L - more than 250 employees).
