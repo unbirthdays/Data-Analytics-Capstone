@@ -5,6 +5,16 @@ Existing research: Most salary reporting sites and major universities have done 
 
 -----
 
+Questions:
+
+- What kind of title makes the most money in data science careers?
+- If I wanted X role, how likely am I to get a remote job?
+- Does remote work have a positive or negative correlation with salary?
+- Does comapny size relate to salary?
+- How does experience level per job title affect salary?
+
+-----
+
 Dataset Description:  
 
 work_year: The year the salary was paid.
