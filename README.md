@@ -31,6 +31,6 @@ Database Source: Kaggle</br>
 <li>Focus on a topic with a broader use.</li>
 </ul>
 
-<h2><strong>Introduction:</strong></h2><br>
+<h2><strong>Dataset Source:</strong></h2><br>
 Link: https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries <br>
 Aggregated using ai-jobs.net (a site to find AI, ML, Data Science, and Big Data jobs).
