@@ -28,3 +28,10 @@ employee_residence: Employee's primary country of residence in during the work y
 remote_ratio: The overall amount of work done remotely (0 - No remote work/less than 20%, 50 - Partially remote/Hybrid, 100 - Fully remote/more than 80%).
 company_location: The country of the employer's main office or contracting branch as an ISO 3166 country code.
 company_size: The average number of people that worked for the company during the year (S - less than 50 employees, M - 50 to 250 employees, L - more than 250 employees).
+
+-----
+
+Dataset Source:
+
+Link: https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries
+Aggregated using ai-jobs.net (a site to find AI, ML, Data Science, and Big Data jobs).
