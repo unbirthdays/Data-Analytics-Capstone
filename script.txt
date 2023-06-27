@@ -6,41 +6,95 @@
 * Must contain short bio, features demo, and thoughtful ending
 
 
-Hello! My name is Sabrina. I was previously a technical recruiter turned data analyst, and I created this data analytics project to showcase how someone can use data science career information to develop insights and make vocational decisions within that field.
-With how volatile the market has been and how the pandemic has recently affected how we work, research of the current climate has been limited to the last few years.
-Luckily, this dataset dates from 2020 to 2022 and can help us form an opinion and decision on what the data science field looks like for this year.
-Prior to this presentation, I have cleaned and explored the dataset, focused on only US companies and full-time employees, corrected any outliers and null values, found trends, and determined relevant values for the multiple regression model.
-On the first page, we can review how the dataset looks and understand the purpose of this project once more, but here we can narrow down our understanding of the overall look of how the salaries average over the years per role before we take a deep dive into the data science career.
+Hello! My name is Sabrina. I was previously a technical recruiter 
+turned data analyst, and I created this data analytics project to 
+showcase how someone can use data science career information to
+develop insights and make vocational decisions within that field.
+With how volatile the market has been and how the pandemic has
+recently affected how we work, research of the current climate has
+been limited to the last few years.
+Luckily, this dataset dates from 2020 to 2022 and can help us form an
+opinion and decision on what the data science field looks like for 
+this year.
+Prior to this presentation, I have cleaned and explored the dataset, 
+focused on only US companies and full-time employees, corrected any 
+outliers and null values, found trends, and determined relevant values 
+for the multiple regression model.
+On the first page, we can review how the dataset looks and understand 
+the purpose of this project once more, but here we can narrow down our 
+understanding of the overall look of how the salaries average over the 
+years per role before we take a deep dive into the data science career.
 Some popular questions to keep in mind are:
 - What kind of title makes the most money in data science careers?
 - Does company size relate to salary?
 - How does experience level per job title affect salary?
 - If I wanted a certain role, how likely am I to get a remote job?
 - Does remote work have a positive or negative correlation with salary?
-Questions surrounding salary and where we work have been some of the biggest aspects within the tech industry, and we will explore that specifically within the data science industry.
+Questions surrounding salary and where we work have been some of the 
+biggest aspects within the tech industry, and we will explore that 
+specifically within the data science industry.
 *turn page*
 Let's focus on the first three questions about salary.
-All job titles have been categorized into either analysts, architects, consultants, engineers, managers/executives, and scientists, and we can see here that the average salary across all jobs sits at around $140k.
-We can see that although analysts and consultants are lower than their counterparts, they make quite a bit of money!
-Hovering over each of these can give you a more in-depth look at what comprises each of these categories, how many values there are, and their own respective averages.
-Normally as we look at the main graph, we can have an inkling as to why certain titles average higher than others.
-Behind the scenes, the dataset has been manipulated to express categorical variables as numerical levels.
-Narrowing down each title's trends using filters, we can see that with most titles, experience level trends positively with salary. The more experience you have, the higher your salary.
-Notice how those titles that average higher than the overall salary averages tend to not have entry level positions. Many also do not reach the executive level. The audience can put some inferences together as to how this relates with these details.
-Also note that with managers and executives, most of the data are recorded at a senior level and with fewer data points than, let's say, an analyst, therefore it is not uncommon to see some abnormalities. Either way, it's a good thing to note for making a decision on career paths.
-Let's take a look at how company size relates to salary. Some people might debate that a large and well-known company has more negotiating power to offer lower salaries than smaller companies.
-However, we can see a large discrepancy between smaller companies and the others.
+All job titles have been categorized into either analysts, architects, 
+consultants, engineers, managers/executives, and scientists, and we can 
+see here that the average salary across all jobs sits at around $140k.
+We can see that although analysts and consultants are lower than their 
+counterparts, they make quite a bit of money!
+Hovering over each of these can give you a more in-depth look at what 
+comprises each of these categories, how many values there are, and 
+their own respective averages.
+Normally as we look at the main graph, we can have an inkling as to 
+why certain titles average higher than others.
+Behind the scenes, the dataset has been manipulated to express 
+categorical variables as numerical levels.
+Narrowing down each title's trends using filters, we can see that 
+with most titles, experience level trends positively with salary. 
+The more experience you have, the higher your salary.
+Notice how those titles that average higher than the overall salary 
+averages tend to not have entry level positions. Many also do not 
+reach the executive level. The audience can put some inferences 
+together as to how this relates with these details.
+Also note that with managers and executives, most of the data are 
+recorded at a senior level and with fewer data points than, let's say, 
+an analyst, therefore it is not uncommon to see some abnormalities. 
+Either way, it's a good thing to note for making a decision on career 
+paths.
+Let's take a look at how company size relates to salary. 
+Some people might debate that a large and well-known company has more 
+negotiating power to offer lower salaries than smaller companies.
+However, we can see a large discrepancy between smaller companies and 
+the others.
 *turn page* 
 Let's also take a look at how remote work might come into play.
-With the main graph, we can see that ALL job titles tend to lean towards being remote! Hovering over each value, we can see that the only fully in-office positions are within being a data engineer and being a type of manager or director level position.
-This looks great for those that tend to like remote work! We can also use this main graph as a filter for our simple regression.
-When we view this simple regression of how being remote affects salary, we might think into thinking that there is a haphazard trend throughou the years.
-However, we can see that the p-value for all of these are much higher than a normal 0.05. This helps us understand that this is likely due to chance.
-Looking below, I have imported the picture of a correlation matrix of the dataset. Viewing where remote work and salary intersect, the correlation is 0.058 on a scale of 0 to 1.
-We can view that and understand that the correlation value is so small that it's negligible. We don't have to worry that remote work will lower our salaries!
+With the main graph, we can see that ALL job titles tend to lean 
+towards being remote! Hovering over each value, we can see that the 
+only fully in-office positions are within being a data engineer and 
+being a type of manager or director level position.
+This looks great for those that tend to like remote work! We can also 
+use this main graph as a filter for our simple regression.
+When we view this simple regression of how being remote affects salary, 
+we might think that there is a haphazard trend throughout the years.
+However, we can see that the p-value for all of these are much higher 
+than a normal 0.05. This helps us understand that this is likely due 
+to chance.
+Looking below, I have imported the picture of a correlation matrix of 
+the dataset. Viewing where remote work and salary intersect, the 
+correlation is 0.058 on a scale of 0 to 1.
+We can view that and understand that the correlation value is so small 
+that it's negligible. We don't have to worry that remote work will 
+lower our salaries!
 *turn page*
-For viewing the model as a whole, we can see on the left the coefficients that ended up being significant.
-On the right, we can view an edited model of the multiple regression to help predict how these variables will affect salaries. We can use this to see if we are content with the company's size as we increase our experience within that company.
+For viewing the model as a whole, we can see on the left the 
+coefficients that ended up being significant.
+On the right, we can view an edited model of the multiple regression 
+to help predict how these variables will affect salaries. We can use 
+this to see if we are content with the company's size as we increase 
+our experience within that company.
 *stop referencing presentation*
-Overall, we have reviewed some very important questions that we might ask ourselves about the current data science career. Using the power of Python on its respective libraries, Tableau, and other tools, this presentation can help people make impactful decisions for their future.
-I'm glad to add this useful project to my Tableau portfolio that people can reference for their own business decisions. Thank you for tuning into my presentation from my data analytics course! 
+Overall, we have reviewed some very important questions that we might 
+ask ourselves about the current data science career. Using the power 
+of Python on its respective libraries, Tableau, and other tools, this 
+presentation can help people make impactful decisions for their future.
+I'm glad to add this useful project to my Tableau portfolio that 
+people can reference for their own business decisions. 
+Thank you for tuning into my presentation from my data analytics course! 

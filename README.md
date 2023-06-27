@@ -15,7 +15,7 @@ This is a presentation of a regression analysis I created to find out the curren
 - Does company size relate to salary?<br>
 - How does experience level per job title affect salary?
 <br><br><br>
-The dataset description can be found in the txt file. Watch this demo video <s>here</s> to listen to me explain my findings.
+The dataset description can be found in the txt file. Watch this demo video <a href="https://www.youtube.com/watch?v=YZuLKBcEmUI">here</a> to listen to me explain my findings.
 <br><br><hr>
 <h2><strong>Tech stack:</strong></h2>
 Languages: Python<br>
